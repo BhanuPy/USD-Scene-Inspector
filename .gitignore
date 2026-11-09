@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Houdini temporary files
+*.hip~
+*.bak
+*.log
+.cache/
+houdini_temp/
+
+# Generated reports
+reports/*.json
+
+# Large or restricted USD assets
+*.usdnc
+*.usdc
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
